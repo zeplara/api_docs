@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="Zeplara API doc" name="description">
+    <title>
+                    Zeplara API Documentation
+            </title>
+    <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+
+<script src="../../../asset/static/prettify.js"></script>
+<script src="../../../asset/api_definition.js"></script>
+
+
+                        <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+                    <link rel="stylesheet" type="text/css" href="../../../asset/static/zephir-theme.css" />
+            
+    
+
+                        <script src="../../../asset/static/prettify.js"></script>
+                                    <script src="../../../asset/api_definition.js"></script>
+                    <script src="../../../asset/static/jquery.min.js"></script>
+                    <script src="../../../asset/static/zephir-doc.js"></script>
+                <script type="application/javascript">let ZepCurrentPath = '../../../'</script>
+    </head>
+ <body onload="prettyPrint()">
+        <div id="top-bar">
+            <div id="top-left">
+                                    Zeplara Documentation <span class="version">v1.0.0</span>
+                            </div>
+            <div id="top-right">
+            </div>
+        </div>
+        <div id="body">
+            <div id="body-left">
+                <div class="header-search">
+                    <input class="search-box" placeholder="Search for a class or namespace " type="text" />
+                    <div id="menu-wrapper">
+                    </div>
+                </div>
+            </div>
+            <div id="body-right">
+                <div class="content">
+                    
+<div class="breadcrumb">
+    
+    <ul>
+        
+        <li><a href="../../../index.html">Home</a></li>
+        
+                <li><a href="../../../classes.html">Classes</a></li>
+                <li><a href="../../../class/Zeplara/Support/Arr.html">Zeplara\Support\Arr</a></li>
+                <li><a >Source</a></li>
+                
+    </ul>
+    
+</div>
+<div class="class-header source clearfix">
+    
+    <div class="access-buttons">
+        <a class="zep-button" href="../../../class/Zeplara/Support/Arr.html">Class</a>
+
+            </div>
+    
+    <div class="class-full-name">
+        <span class="class-type">Class</span>
+        
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara.html">Zeplara</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara/Support.html">Support</a>
+        </span>
+        
+        <h1 class="class-name">Arr</h1>
+    </div>
+    
+</div>
+
+<pre class="zephir-source-file prettyprint linenums">
+    namespace Zeplara\Support;
+
+final class Arr
+{
+    /**
+     * {@inheritdoc}
+     */
+    private function __construct()
+    {
+
+    }
+
+    /**
+     * @param value
+     * @return array
+     */
+    public static function wrap(value)
+    {
+        if typeof value != "array" {
+            let value = [value];
+        }
+
+        return value;
+    }
+
+    /**
+     * @param values
+     * @param depth
+     * @return array
+     */
+    public static function flatten(values, depth = 512)
+    {
+        var results, item;
+
+        let results = [];
+
+        for item in values {
+            if typeof item != "array" {
+                let results[] = item;
+                continue;
+            }
+
+            var nestedItem, nestedValues;
+
+            if depth > 0 {
+                let nestedValues = self::flatten(item, depth - 1);
+            } else {
+                let nestedValues = array_values(item);
+            }
+
+            for nestedItem in nestedValues {
+                let results[] = nestedItem;
+            }
+            
+        }
+
+        return results;
+    }
+
+    /**
+     * @param array values
+     * @param key
+     * @param null|mixed defaultValue
+     * @return mixed
+     */
+    public static function get(values, key, defaultValue = null)
+    {
+        if isset values[key] {
+            return values[key];
+        }
+
+        var sgmnts, segments;
+
+        let segments = self::createSegmentsOfKey(key),
+            sgmnts = segments;
+        
+        while isset values[key] === false && count(sgmnts) > 1 {
+            array_pop(sgmnts);
+            let key = self::implodeSegmentsOfKey(sgmnts);
+        }
+
+        let segments = array_slice(segments, count(sgmnts));
+
+        if isset values[key] {
+            if count(segments) {
+                return self::get(values[key], self::implodeSegmentsOfKey(segments), defaultValue); 
+            } 
+
+            return values[key];
+        }
+
+        return defaultValue;
+    }
+
+    /**
+     * @param array values
+     * @param key
+     * @return bool
+     */
+    public static function has(values, key)
+    {
+        if isset values[key] {
+            return true;
+        }
+
+        var sgmnts, segments;
+
+        let segments = self::createSegmentsOfKey(key),
+            sgmnts = segments;
+        
+        while isset values[key] === false && count(sgmnts) > 1 {
+            array_pop(sgmnts);
+            let key = self::implodeSegmentsOfKey(sgmnts);
+        }
+
+        let segments = array_slice(segments, count(sgmnts));
+
+        if isset values[key] {
+            if count(segments) {
+                return self::has(values[key], self::implodeSegmentsOfKey(segments));
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * @param array values
+     * @param key
+     * @return array
+     */
+    public static function put(values, key)
+    {
+        unset values[key];
+
+        var sgmnts, segments;
+
+        let segments = self::createSegmentsOfKey(key),
+            sgmnts = segments;
+        
+        while isset values[key] === false && count(sgmnts) > 1 {
+            array_pop(sgmnts);
+            let key = self::implodeSegmentsOfKey(sgmnts);
+        }
+
+        let segments = array_slice(segments, count(sgmnts));
+        
+        if isset values[key] {
+            if count(segments) {
+                let values[key] = self::put(values[key], self::implodeSegmentsOfKey(segments));
+            } else {
+                unset values[key];
+            }
+        }
+
+        return values;
+    }
+
+    /**
+     * @param array values
+     * @param key
+     * @param value
+     * @return array
+     */
+    public static function set(values, key, value)
+    {
+        if isset values[key] {
+            let values[key] = value;
+
+            return values;
+        }
+
+        var sgmnts, segments;
+
+        let segments = self::createSegmentsOfKey(key),
+            sgmnts = segments;
+        
+        while isset values[key] === false && count(sgmnts) > 1 {
+            array_pop(sgmnts);
+            let key = self::implodeSegmentsOfKey(sgmnts);
+        }
+
+        let segments = array_slice(segments, count(sgmnts));
+
+        if count(segments) {
+            let values[key] = self::set(self::wrap(isset values[key] ? values[key] : []), self::implodeSegmentsOfKey(segments), value);
+        } else {
+            let values[key] = value;
+        }
+
+        return values;
+    }
+
+    /**
+     * @param array values
+     * @param null defaultValue
+     * @return mixed
+     */
+    public static function first(values, defaultValue = null)
+    {
+        var value;
+        
+        for value in values {
+            return value;
+        }
+
+        return defaultValue;
+    }
+
+    /**
+     * @param array values
+     * @param null defaultValue
+     * @return mixed
+     */
+    public static function last(values, defaultValue = null)
+    {
+        return self::first(array_reverse(values), defaultValue);
+    }
+
+    /**
+     * @param key
+     * @return array
+     */
+    private static function createSegmentsOfKey(key)
+    {
+        return explode(".", (string) key);
+    }
+
+    /**
+     * @param array segments
+     * @return string
+     */
+    private static function implodeSegmentsOfKey(segments)
+    {
+        return implode(".", segments);
+    }
+}</pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

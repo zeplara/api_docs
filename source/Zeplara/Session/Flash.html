@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="Zeplara API doc" name="description">
+    <title>
+                    Zeplara API Documentation
+            </title>
+    <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+
+<script src="../../../asset/static/prettify.js"></script>
+<script src="../../../asset/api_definition.js"></script>
+
+
+                        <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+                    <link rel="stylesheet" type="text/css" href="../../../asset/static/zephir-theme.css" />
+            
+    
+
+                        <script src="../../../asset/static/prettify.js"></script>
+                                    <script src="../../../asset/api_definition.js"></script>
+                    <script src="../../../asset/static/jquery.min.js"></script>
+                    <script src="../../../asset/static/zephir-doc.js"></script>
+                <script type="application/javascript">let ZepCurrentPath = '../../../'</script>
+    </head>
+ <body onload="prettyPrint()">
+        <div id="top-bar">
+            <div id="top-left">
+                                    Zeplara Documentation <span class="version">v1.0.0</span>
+                            </div>
+            <div id="top-right">
+            </div>
+        </div>
+        <div id="body">
+            <div id="body-left">
+                <div class="header-search">
+                    <input class="search-box" placeholder="Search for a class or namespace " type="text" />
+                    <div id="menu-wrapper">
+                    </div>
+                </div>
+            </div>
+            <div id="body-right">
+                <div class="content">
+                    
+<div class="breadcrumb">
+    
+    <ul>
+        
+        <li><a href="../../../index.html">Home</a></li>
+        
+                <li><a href="../../../classes.html">Classes</a></li>
+                <li><a href="../../../class/Zeplara/Session/Flash.html">Zeplara\Session\Flash</a></li>
+                <li><a >Source</a></li>
+                
+    </ul>
+    
+</div>
+<div class="class-header source clearfix">
+    
+    <div class="access-buttons">
+        <a class="zep-button" href="../../../class/Zeplara/Session/Flash.html">Class</a>
+
+            </div>
+    
+    <div class="class-full-name">
+        <span class="class-type">Class</span>
+        
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara.html">Zeplara</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara/Session.html">Session</a>
+        </span>
+        
+        <h1 class="class-name">Flash</h1>
+    </div>
+    
+</div>
+
+<pre class="zephir-source-file prettyprint linenums">
+    namespace Zeplara\Session;
+
+use RuntimeException;
+use Zeplara\Support\Repository;
+use Zeplara\Contracts\Session\Manager;
+use Zeplara\Contracts\Session\Flash as FlashContract;
+
+final class Flash extends Repository
+{
+    /**
+     * @var string
+     */
+    protected name { get };
+    /**
+     * @var Manager
+     */
+    protected manager { get };
+
+    /**
+     * @param Manager manager
+     * @param string name
+     */
+    public function __construct(<Manager> manager, name)
+    {
+        if manager->isStarted() === false {
+            throw new RuntimeException("The session is not started.");
+        }
+
+        this->setItems(manager->get(name, []));
+        manager->put(name);
+
+        let this->manager = manager,
+            this->name = name;
+    }
+
+    /**
+     * @param string key
+     * @param value
+     * @return void
+     */
+    public function set(key, value)
+    {
+        parent::set(key, value);
+        
+        this->manager->set(this->resolveKey(key), value);
+    }
+
+    /**
+     * @param string key
+     * @return string
+     */
+    private function resolveKey(key)
+    {
+        return this->name.".".key;
+    }
+}</pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

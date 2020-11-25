@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="Zeplara API doc" name="description">
+    <title>
+                    Zeplara API Documentation
+            </title>
+    <link rel="stylesheet" type="text/css" href="../../../../../asset/static/prettify.css" />
+
+<script src="../../../../../asset/static/prettify.js"></script>
+<script src="../../../../../asset/api_definition.js"></script>
+
+
+                        <link rel="stylesheet" type="text/css" href="../../../../../asset/static/prettify.css" />
+                    <link rel="stylesheet" type="text/css" href="../../../../../asset/static/zephir-theme.css" />
+            
+    
+
+                        <script src="../../../../../asset/static/prettify.js"></script>
+                                    <script src="../../../../../asset/api_definition.js"></script>
+                    <script src="../../../../../asset/static/jquery.min.js"></script>
+                    <script src="../../../../../asset/static/zephir-doc.js"></script>
+                <script type="application/javascript">let ZepCurrentPath = '../../../../../'</script>
+    </head>
+ <body onload="prettyPrint()">
+        <div id="top-bar">
+            <div id="top-left">
+                                    Zeplara Documentation <span class="version">v1.0.0</span>
+                            </div>
+            <div id="top-right">
+            </div>
+        </div>
+        <div id="body">
+            <div id="body-left">
+                <div class="header-search">
+                    <input class="search-box" placeholder="Search for a class or namespace " type="text" />
+                    <div id="menu-wrapper">
+                    </div>
+                </div>
+            </div>
+            <div id="body-right">
+                <div class="content">
+                    
+<div class="breadcrumb">
+    
+    <ul>
+        
+        <li><a href="../../../../../index.html">Home</a></li>
+        
+                <li><a href="../../../../../classes.html">Classes</a></li>
+                <li><a href="../../../../../class/Zeplara/Support/File/Finder/Iterator.html">Zeplara\Support\File\Finder\Iterator</a></li>
+                <li><a >Source</a></li>
+                
+    </ul>
+    
+</div>
+<div class="class-header source clearfix">
+    
+    <div class="access-buttons">
+        <a class="zep-button" href="../../../../../class/Zeplara/Support/File/Finder/Iterator.html">Class</a>
+
+            </div>
+    
+    <div class="class-full-name">
+        <span class="class-type">Class</span>
+        
+                <span class="namespace-piece">
+            <a href="../../../../../namespace/Zeplara.html">Zeplara</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../../../namespace/Zeplara/Support.html">Support</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../../../namespace/Zeplara/Support/File.html">File</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../../../namespace/Zeplara/Support/File/Finder.html">Finder</a>
+        </span>
+        
+        <h1 class="class-name">Iterator</h1>
+    </div>
+    
+</div>
+
+<pre class="zephir-source-file prettyprint linenums">
+    namespace Zeplara\Support\File\Finder;
+
+use FilterIterator;
+use UnexpectedValueException;
+use Iterator as IteratorContract;
+
+final class Iterator extends FilterIterator
+{   
+    /**
+     * @var array
+     */
+    protected filters { get };
+
+    /**
+     * @param IteratorContract iterator
+     * @param array filters
+     */
+    public function __construct(<IteratorContract> iterator, array! filters)
+    {
+        let this->filters = filters;
+        parent::__construct(iterator);
+    }
+
+    /**
+     * @return bool
+     */
+    public function accept()
+    {
+        return this->isAccepted(this->current());
+    }
+
+    /**
+     * @param SplFileInfo fileInfo
+     * @return bool
+     */
+    private function isAccepted(<SplFileInfo> fileInfo)
+    {
+        var filter;
+
+        for filter in this->filters {
+            if is_callable(filter) {
+                let filter = FilterFactory::callback(filter);
+            }
+            if typeof filter != "object" || (filter instanceof AbstractFilter) === false {
+                throw new UnexpectedValueException("The filter must be instanceof %s\\AbstractFilter"->format(__NAMESPACE__));
+            }
+            if filter->accept(fileInfo) === false {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}</pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

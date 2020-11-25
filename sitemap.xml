@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>/index.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+        <lastmod>2020-11-26</lastmod>
+    </url>
+
+    <url>
+        <loc>/namespaces.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+        <lastmod>2020-11-26</lastmod>
+    </url>
+
+    <url>
+        <loc>/classes.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+        <lastmod>2020-11-26</lastmod>
+    </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/Attribute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/Attribute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/AbstractFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/AbstractFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Config/Loader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Config/Loader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/AbstractMessage.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/AbstractMessage.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/Attribute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/Attribute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Container/Container.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Container/Container.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Container/ContainerException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Container/ContainerException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Config/LoaderException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Config/LoaderException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Config/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Config/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Container/BindingResolutionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Container/BindingResolutionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Container/InvalidAbstractException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Container/InvalidAbstractException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Cookie/Cookie.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Cookie/Cookie.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Cookie/Queue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Cookie/Queue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Encryption/Encrypter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Encryption/Encrypter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Encryption/EncryptionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Encryption/EncryptionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Pipeline/Pipeline.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Pipeline/Pipeline.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/CompiledRoute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/CompiledRoute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/Group.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/Group.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/Regex.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/Regex.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/Registrar.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/Registrar.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/Route.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/Route.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/RouteCompiler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/RouteCompiler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/RouteCompilerException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/RouteCompilerException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Routing/Router.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Routing/Router.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Session/Manager.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Session/Manager.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/Request.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/Request.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Parser/AbstractParser.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Parser/AbstractParser.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/EnvLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/EnvLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/IniLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/IniLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/JsonLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/JsonLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/LoaderException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/LoaderException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/PhpLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/PhpLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/Repository.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Config/XmlLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Config/XmlLoader.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Container/BindingResolutionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Container/BindingResolutionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Container/Container.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Container/Container.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Container/InvalidAbstractException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Container/InvalidAbstractException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Application.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Application.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Contracts/Session/Flash.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Contracts/Session/Flash.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Cookie/Cookie.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Cookie/Cookie.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Cookie/Factory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Cookie/Factory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Cookie/Queue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Cookie/Queue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Encryption/Encrypter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Encryption/Encrypter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Encryption/EncryptionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Encryption/EncryptionException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/RequestFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/RequestFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/Response.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/Response.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/ResponseFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/ResponseFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/ServerRequest.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/ServerRequest.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/ServerRequestFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/ServerRequestFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/Stream.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/Stream.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/StreamFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/StreamFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/UploadedFile.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/UploadedFile.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/UploadedFileFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/UploadedFileFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/Uri.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/Uri.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Http/UriFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Http/UriFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Pipeline/Carry.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Pipeline/Carry.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Pipeline/Pipeline.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Pipeline/Pipeline.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/CompiledRoute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/CompiledRoute.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/Group.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/Group.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/Regex.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/Regex.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/Registrar.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/Registrar.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/Route.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/Route.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/RouteCompiler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/RouteCompiler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/RouteCompilerException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/RouteCompilerException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Routing/Router.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Routing/Router.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Session/CookieSessionHandler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Session/CookieSessionHandler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Session/FileSessionHandler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Session/FileSessionHandler.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Session/Flash.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Session/Flash.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Session/Manager.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Session/Manager.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/Arr.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/Arr.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/Facades/Facade.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/Facades/Facade.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/CallbackFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/CallbackFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/DateFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/DateFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/DirectoryFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/DirectoryFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/ExecutableFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/ExecutableFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/FileExtensionFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/FileExtensionFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/FileFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/FileFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/FileFinder.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/FileFinder.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/FilterFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/FilterFactory.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/IgnoreDotFileFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/IgnoreDotFileFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/Iterator.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/Iterator.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/LinkFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/LinkFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/ReadableFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/ReadableFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Finder/WritableFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Finder/WritableFilter.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Parser/CompiledValue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Parser/CompiledValue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Parser/EnvParser.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Parser/EnvParser.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Parser/LinesIterator.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Parser/LinesIterator.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Parser/ParserException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Parser/ParserException.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/Parser/RawValue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/Parser/RawValue.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/File/SplFileInfo.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/File/SplFileInfo.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+            <url>
+            <loc>/class/Zeplara/Support/Str.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+        <url>
+            <loc>/source/Zeplara/Support/Str.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+
+    
+            <url>
+            <loc>/namespace/Zeplara.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Routing.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Support.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Support/File.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Support/File/Finder.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Config.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Http.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Routing.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Container.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Container.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Cookie.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Encryption.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Pipeline.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Contracts/Session.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Support/File/Parser.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Config.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Cookie.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Encryption.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Pipeline.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Session.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+            <url>
+            <loc>/namespace/Zeplara/Support/Facades.html</loc>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+            <lastmod>2020-11-26</lastmod>
+        </url>
+    
+</urlset>

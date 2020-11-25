@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="Zeplara API doc" name="description">
+    <title>
+                    Zeplara API Documentation
+            </title>
+    <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+
+<script src="../../../asset/static/prettify.js"></script>
+<script src="../../../asset/api_definition.js"></script>
+
+
+                        <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+                    <link rel="stylesheet" type="text/css" href="../../../asset/static/zephir-theme.css" />
+            
+    
+
+                        <script src="../../../asset/static/prettify.js"></script>
+                                    <script src="../../../asset/api_definition.js"></script>
+                    <script src="../../../asset/static/jquery.min.js"></script>
+                    <script src="../../../asset/static/zephir-doc.js"></script>
+                <script type="application/javascript">let ZepCurrentPath = '../../../'</script>
+    </head>
+ <body onload="prettyPrint()">
+        <div id="top-bar">
+            <div id="top-left">
+                                    Zeplara Documentation <span class="version">v1.0.0</span>
+                            </div>
+            <div id="top-right">
+            </div>
+        </div>
+        <div id="body">
+            <div id="body-left">
+                <div class="header-search">
+                    <input class="search-box" placeholder="Search for a class or namespace " type="text" />
+                    <div id="menu-wrapper">
+                    </div>
+                </div>
+            </div>
+            <div id="body-right">
+                <div class="content">
+                    
+<div class="breadcrumb">
+    
+    <ul>
+        
+        <li><a href="../../../index.html">Home</a></li>
+        
+                <li><a href="../../../classes.html">Classes</a></li>
+                <li><a href="../../../class/Zeplara/Session/CookieSessionHandler.html">Zeplara\Session\CookieSessionHandler</a></li>
+                <li><a >Source</a></li>
+                
+    </ul>
+    
+</div>
+<div class="class-header source clearfix">
+    
+    <div class="access-buttons">
+        <a class="zep-button" href="../../../class/Zeplara/Session/CookieSessionHandler.html">Class</a>
+
+            </div>
+    
+    <div class="class-full-name">
+        <span class="class-type">Class</span>
+        
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara.html">Zeplara</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara/Session.html">Session</a>
+        </span>
+        
+        <h1 class="class-name">CookieSessionHandler</h1>
+    </div>
+    
+</div>
+
+<pre class="zephir-source-file prettyprint linenums">
+    namespace Zeplara\Session;
+
+use Zeplara\Cookie\Factory;
+use SessionHandlerInterface;
+use Zeplara\Contracts\Cookie\Queue;
+use Psr\Http\Message\ServerRequestInterface;
+
+final class CookieSessionHandler implements SessionHandlerInterface
+{
+    /**
+     * @var Queue
+     */
+    private queue;
+    /**
+     * @var ServerRequestInterface
+     */
+    private request;
+
+    /**
+     * @param Queue queue
+     * @param ServerRequestInterface request
+     */
+    public function __construct(<Queue> queue, <ServerRequestInterface> request)
+    {
+        let this->queue = queue,
+            this->request = request;
+    }
+
+    /**
+     * @return bool
+     */
+    public function close()
+    {
+        return true;
+    }
+
+    /**
+     * @param int maxlifetime
+     * @return bool
+     */
+    public function gc(maxlifetime)
+    {
+        return true;
+    }
+
+    /**
+     * @param string save_path
+     * @param string name
+     * @return bool
+     */
+    public function open(save_path, name)
+    {
+        return true;
+    }
+
+    /**
+     * @param string session_id
+     * @return mixed|string|null
+     */
+    public function read(session_id)
+    {
+        var cookie;
+
+        fetch cookie, this->request->getCookieParams()[session_id];
+
+        return (string) cookie;
+    }
+
+    /**
+     * @param string session_id
+     * @param string session_data
+     * @return bool
+     */
+    public function write(session_id, session_data)
+    {
+        this->queue->set(Factory::make(session_id, session_data));
+
+        return true;
+    }
+
+    /**
+     * @param string session_id
+     * @return bool
+     */
+    public function destroy(session_id)
+    {
+        this->queue->set(Factory::forget(session_id));
+        
+        return true;
+    }
+}</pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

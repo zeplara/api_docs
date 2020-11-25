@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="Zeplara API doc" name="description">
+    <title>
+                    Zeplara API Documentation
+            </title>
+    <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+
+<script src="../../../asset/static/prettify.js"></script>
+<script src="../../../asset/api_definition.js"></script>
+
+
+                        <link rel="stylesheet" type="text/css" href="../../../asset/static/prettify.css" />
+                    <link rel="stylesheet" type="text/css" href="../../../asset/static/zephir-theme.css" />
+            
+    
+
+                        <script src="../../../asset/static/prettify.js"></script>
+                                    <script src="../../../asset/api_definition.js"></script>
+                    <script src="../../../asset/static/jquery.min.js"></script>
+                    <script src="../../../asset/static/zephir-doc.js"></script>
+                <script type="application/javascript">let ZepCurrentPath = '../../../'</script>
+    </head>
+ <body onload="prettyPrint()">
+        <div id="top-bar">
+            <div id="top-left">
+                                    Zeplara Documentation <span class="version">v1.0.0</span>
+                            </div>
+            <div id="top-right">
+            </div>
+        </div>
+        <div id="body">
+            <div id="body-left">
+                <div class="header-search">
+                    <input class="search-box" placeholder="Search for a class or namespace " type="text" />
+                    <div id="menu-wrapper">
+                    </div>
+                </div>
+            </div>
+            <div id="body-right">
+                <div class="content">
+                    
+<div class="breadcrumb">
+    
+    <ul>
+        
+        <li><a href="../../../index.html">Home</a></li>
+        
+                <li><a href="../../../classes.html">Classes</a></li>
+                <li><a href="../../../class/Zeplara/Support/Repository.html">Zeplara\Support\Repository</a></li>
+                <li><a >Source</a></li>
+                
+    </ul>
+    
+</div>
+<div class="class-header source clearfix">
+    
+    <div class="access-buttons">
+        <a class="zep-button" href="../../../class/Zeplara/Support/Repository.html">Class</a>
+
+            </div>
+    
+    <div class="class-full-name">
+        <span class="class-type">Class</span>
+        
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara.html">Zeplara</a>
+        </span>
+                <span class="namespace-piece">
+            <a href="../../../namespace/Zeplara/Support.html">Support</a>
+        </span>
+        
+        <h1 class="class-name">Repository</h1>
+    </div>
+    
+</div>
+
+<pre class="zephir-source-file prettyprint linenums">
+    namespace Zeplara\Support;
+
+abstract class Repository
+{
+    /**
+     * @var array
+     */
+    protected items = [] { get, set };
+
+    /**
+     * @param key
+     * @return bool
+     */
+    public function has(key)
+    {
+        return Arr::has(this->items, key);
+    }
+
+    /**
+     * @param key
+     * @param null defaultValue
+     * @return mixed
+     */
+    public function get(key, defaultValue = null)
+    {
+        return Arr::get(this->items, key, defaultValue);
+    }
+
+    /**
+     * @param key
+     * @param value
+     * @return void
+     */
+    public function set(key, value)
+    {
+        let this->items = Arr::set(this->items, key, value);
+    }
+
+    /**
+     * @param key
+     * @return void
+     */
+    public function put(key)
+    {
+        let this->items = Arr::put(this->items, key);
+    }
+
+    /**
+     * @param offset
+     * @return bool
+     */
+    public function offsetExists(offset)
+    {
+        return this->has(offset);
+    }
+
+    /**
+     * @param offset
+     * @return mixed
+     */
+    public function offsetGet(offset)
+    {
+        return this->get(offset);
+    }
+
+    /**
+     * @param offset
+     * @param value
+     * @return void
+     */
+    public function offsetSet(offset, value)
+    {
+        this->set(offset, value);
+    }
+
+    /**
+     * @param offset
+     * @return void
+     */
+    public function offsetUnset(offset)
+    {
+        this->put(offset);
+    }
+
+    /**
+     * @param string key
+     * @return mixed
+     */
+    public function __get(key)
+    {
+        return this->get(key);
+    }
+    
+    /**
+     * @param string key
+     * @return bool
+     */
+    public function __isset(key)
+    {
+        return this->has(key);
+    }
+
+    /**
+     * @param string key
+     * @param value
+     * @return void
+     */
+    public function __set(key, value)
+    {
+        this->set(key, value);
+    }
+
+    /**
+     * @param string key
+     * @return void
+     */
+    public function __unset(key)
+    {
+        this->put(key);
+    }
+}</pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
